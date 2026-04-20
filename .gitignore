@@ -1,0 +1,49 @@
+# ▮▮▮ Terraform not needed
+.terraform/
+.terraform.d/
+SECRETS.tf
+secrets.tf
+
+# ▮▮▮ Not needed JAVA / Maven related 
+*.class
+*.jar
+*.war
+target/
+
+# ▮▮▮ Not needed PYTHON related
+*.py[cod]
+__pycache__/
+_PYTHON_VENV/
+
+# ▮▮▮ No uncompressed archives ( but allow .gz, .zip ) 
+*.tar
+
+# ▮▮▮ Large Media FILES (video)
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
+# ▮▮▮
+# ▮▮▮ Misc not needed
+.vscode
+.DS_Store
+*.swp
+*.log
+*.jar
+Thumbs.db
+node_modules/
+dist/
+package-lock.json
+yarn.lock
+/node_modules
+/dist_electron
+TFPlan.tmp
+TFDestroyPlan.tmp
+
+*.mac
+*.exe
+*.linux
+
